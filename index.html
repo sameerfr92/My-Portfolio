@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Sameer Manubansh | Senior Data Engineer – McCain Foods, Delhi</title>
+  <meta name="description" content="Sameer Manubansh – Senior Data Engineer at McCain Foods, Delhi. Expert in Azure Synapse Analytics, Databricks, SSIS, Power BI, ETL/ELT pipelines. MSc Data Science." />
+  <meta name="keywords" content="Senior Data Engineer, McCain Foods, Azure Synapse, Databricks, Power BI, ETL, Delhi, Data Analytics, PySpark, SSIS" />
+  <meta name="author" content="Sameer Manubansh" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Sameer Manubansh | Senior Data Engineer @ McCain Foods" />
+  <meta property="og:description" content="Scalable Data Pipelines · Azure Synapse · Databricks · ETL/ELT · Power BI. Senior Data Engineer based in Delhi, India." />
+  <meta property="og:locale"      content="en_IN" />
+  <meta name="twitter:card"       content="summary_large_image" />
+  <meta name="twitter:title"      content="Sameer Manubansh | Senior Data Engineer" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sameer Manubansh",
+    "jobTitle": "Senior Data Engineer",
+    "worksFor": { "@type": "Organization", "name": "McCain Foods" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Delhi", "addressCountry": "IN" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Liverpool John Moores University" },
+      { "@type": "CollegeOrUniversity", "name": "IIIT Bangalore" }
+    ],
+    "knowsAbout": ["Azure Synapse Analytics","Databricks","SSIS","Power BI","PySpark","ETL","SQL Server","ADLS Gen2","Azure Data Factory","Docker"]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════════════ NAVIGATION ══════════════════ -->
+<nav id="navbar" role="navigation" aria-label="Primary navigation">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#hero" aria-label="Home">
+      <span class="brand-lt">&lt;</span>SM<span class="brand-slash">/</span><span class="brand-gt">&gt;</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList" role="list">
+      <li><a href="#hero"     class="nl active">Home</a></li>
+      <li><a href="#about"    class="nl">About</a></li>
+      <li><a href="#skills"   class="nl">Skills</a></li>
+      <li><a href="#projects" class="nl">Projects</a></li>
+      <li><a href="#blog"     class="nl">Blog</a></li>
+      <li><a href="#contact"  class="nl">Contact</a></li>
+    </ul>
+    <a href="assets/Sameer_Manubansh_CV.pdf" class="nav-cta" download aria-label="Download CV">
+      <i class="fas fa-file-arrow-down"></i> CV
+    </a>
+  </div>
+</nav>
+
+<!-- ══════════════════ HERO ══════════════════ -->
+<section id="hero" aria-label="Introduction">
+  <canvas id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow fade-up d1">
+      <span class="mono status-dot"></span>
+      <span class="mono">Available for senior roles &amp; consulting</span>
+    </div>
+
+    <h1 class="hero-name fade-up d2">
+      Sameer<br /><em>Manubansh</em>
+    </h1>
+
+    <p class="hero-role fade-up d3">
+      Senior Data Engineer <span class="at">@</span> McCain Foods
+      <span class="sep">|</span> Data Engineering &amp; Analytics Expert
+      <span class="sep">|</span> Delhi, India
+    </p>
+
+    <div class="hero-typing fade-up d4" aria-live="polite">
+      <span class="mono prompt">$&nbsp;</span>
+      <span id="typedText" class="mono typed"></span>
+      <span class="caret" aria-hidden="true">▋</span>
+    </div>
+
+    <div class="hero-actions fade-up d5">
+      <a href="assets/Sameer_Manubansh_CV.pdf" class="btn-pill primary" download>
+        <i class="fas fa-download"></i> Download CV
+      </a>
+      <a href="#projects" class="btn-pill ghost">
+        <i class="fas fa-folder-open"></i> View Projects
+      </a>
+    </div>
+
+    <div class="hero-stats fade-up d6" aria-label="Key stats">
+      <div class="hstat">
+        <span class="hstat-n" data-target="6">0</span><span class="hstat-suf">+</span>
+        <span class="hstat-l">Years Exp.</span>
+      </div>
+      <div class="hstat-div" aria-hidden="true"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-target="4">0</span>
+        <span class="hstat-l">Companies</span>
+      </div>
+      <div class="hstat-div" aria-hidden="true"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-target="20">0</span><span class="hstat-suf">+</span>
+        <span class="hstat-l">Pipelines Built</span>
+      </div>
+      <div class="hstat-div" aria-hidden="true"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-target="10">0</span><span class="hstat-suf">+</span>
+        <span class="hstat-l">BI Dashboards</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue fade-up d6" aria-label="Scroll to About section">
+    <span class="mono">scroll</span>
+    <i class="fas fa-chevron-down bounce"></i>
+  </a>
+</section>
+
+<!-- ══════════════════ ABOUT ══════════════════ -->
+<section id="about" aria-labelledby="about-h">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="sec-tag mono">// 01 — about</span>
+      <h2 id="about-h">Who I Am</h2>
+    </header>
+
+    <div class="about-layout">
+      <!-- LEFT -->
+      <div class="about-left reveal">
+        <div class="avatar-wrap">
+          <div class="avatar-ring"></div>
+          <img
+            src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=420&h=420&fit=crop&crop=faces"
+            alt="Sameer Manubansh – Senior Data Engineer"
+            class="avatar-img" loading="lazy" width="420" height="420"
+          />
+          <div class="avatar-chip mono">
+            <i class="fas fa-circle-check"></i> Open to opportunities
+          </div>
+        </div>
+
+        <div class="bio">
+          <p>Delhi-based <strong>Senior Data Engineer</strong> with 6+ years building enterprise-grade data infrastructure across FMCG, technology services, and consulting sectors.</p>
+          <p>Currently driving data modernisation at <strong>McCain Foods</strong> — designing Azure Synapse warehouses, Databricks ETL frameworks, and Power BI reporting layers that serve global analytics teams.</p>
+
+          <div class="cert-row">
+            <span class="cert-badge"><i class="fas fa-graduation-cap"></i> MSc Data Science – LJMU</span>
+            <span class="cert-badge"><i class="fas fa-award"></i> PG Diploma – IIIT Bangalore</span>
+            <span class="cert-badge"><i class="fas fa-language"></i> DELF B1 French</span>
+            <span class="cert-badge"><i class="fas fa-certificate"></i> ML / Stats / EDA Certs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Timeline -->
+      <div class="about-right reveal">
+        <h3 class="tl-title mono">career_timeline.json</h3>
+        <div class="timeline" role="list">
+
+          <div class="tl-item" role="listitem" tabindex="0">
+            <div class="tl-dot active"></div>
+            <div class="tl-body">
+              <span class="tl-period">Nov 2025 – Present</span>
+              <h4>Senior Data Engineer</h4>
+              <p class="tl-org"><i class="fas fa-building"></i> McCain Foods, Delhi</p>
+              <ul class="tl-bullets">
+                <li>Architected Azure Synapse lakehouse handling 50M+ daily records</li>
+                <li>Led Databricks migration cutting pipeline latency by 40%</li>
+                <li>Delivered executive Power BI dashboards for global supply-chain KPIs</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem" tabindex="0">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-period">Aug 2024 – Oct 2025</span>
+              <h4>Data Engineer</h4>
+              <p class="tl-org"><i class="fas fa-building"></i> McCain Foods, Delhi</p>
+              <ul class="tl-bullets">
+                <li>Built 15+ SSIS/ADF ETL pipelines for ERP and POS data integration</li>
+                <li>Designed ADLS Gen2 data lake with medallion architecture</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem" tabindex="0">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-period">Jul 2022 – Jun 2024</span>
+              <h4>Data Engineer</h4>
+              <p class="tl-org"><i class="fas fa-building"></i> Claranet India</p>
+              <ul class="tl-bullets">
+                <li>Developed ADF-based cloud pipelines for UK enterprise clients</li>
+                <li>Automated SQL Server maintenance reducing DBA overhead by 30%</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem" tabindex="0">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-period">Apr 2019 – Jul 2022</span>
+              <h4>Consultant – Data Analytics</h4>
+              <p class="tl-org"><i class="fas fa-building"></i> Capgemini</p>
+              <ul class="tl-bullets">
+                <li>Delivered RPA + ML automation for Fortune 500 insurance clients</li>
+                <li>Cut reporting cycle from weekly to daily via BI automation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem" tabindex="0">
+            <div class="tl-dot green"></div>
+            <div class="tl-body">
+              <span class="tl-period">2021 – 2023</span>
+              <h4>MSc Data Science</h4>
+              <p class="tl-org"><i class="fas fa-graduation-cap"></i> Liverpool John Moores University</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ SKILLS ══════════════════ -->
+<section id="skills" aria-labelledby="skills-h">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="sec-tag mono">// 02 — skills</span>
+      <h2 id="skills-h">Tech Stack</h2>
+    </header>
+
+    <div class="skills-grid">
+
+      <div class="sk-card reveal" data-delay="0">
+        <div class="sk-icon" style="--ic:#00D4FF"><i class="fas fa-database"></i></div>
+        <div class="sk-info">
+          <h3>Azure Synapse Analytics</h3>
+          <p class="sk-sub">Lakehouse · Dedicated Pools · Serverless SQL</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="95"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">95%</span>
+        </div>
+        <div class="sk-tags"><span>Synapse</span><span>T-SQL</span><span>Azure</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="1">
+        <div class="sk-icon" style="--ic:#FF6D00"><i class="fas fa-fire-flame-curved"></i></div>
+        <div class="sk-info">
+          <h3>Databricks</h3>
+          <p class="sk-sub">Delta Lake · MLflow · Spark Clusters</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="92"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">92%</span>
+        </div>
+        <div class="sk-tags"><span>Delta</span><span>Spark</span><span>MLflow</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="2">
+        <div class="sk-icon" style="--ic:#00C853"><i class="fas fa-layer-group"></i></div>
+        <div class="sk-info">
+          <h3>ADLS Gen2</h3>
+          <p class="sk-sub">Data Lake · Bronze/Silver/Gold · ACLs</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="90"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">90%</span>
+        </div>
+        <div class="sk-tags"><span>ADLS</span><span>Blob</span><span>Hierarchical NS</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="3">
+        <div class="sk-icon" style="--ic:#00D4FF"><i class="fas fa-gears"></i></div>
+        <div class="sk-info">
+          <h3>SSIS / SSMS</h3>
+          <p class="sk-sub">ETL Packages · Maintenance Plans · Agents</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="88"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">88%</span>
+        </div>
+        <div class="sk-tags"><span>SSIS</span><span>SSMS</span><span>T-SQL</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="4">
+        <div class="sk-icon" style="--ic:#e74c3c"><i class="fas fa-server"></i></div>
+        <div class="sk-info">
+          <h3>SQL Server</h3>
+          <p class="sk-sub">Performance Tuning · Stored Procs · Indexing</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="95"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">95%</span>
+        </div>
+        <div class="sk-tags"><span>MSSQL</span><span>Query Opt</span><span>HA/DR</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="5">
+        <div class="sk-icon" style="--ic:#F2C811"><i class="fas fa-chart-pie"></i></div>
+        <div class="sk-info">
+          <h3>Power BI / DAX</h3>
+          <p class="sk-sub">Enterprise Dashboards · RLS · Dataflows</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="92"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">92%</span>
+        </div>
+        <div class="sk-tags"><span>DAX</span><span>Power Query</span><span>RLS</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="6">
+        <div class="sk-icon" style="--ic:#39FF14"><i class="fab fa-python"></i></div>
+        <div class="sk-info">
+          <h3>PySpark</h3>
+          <p class="sk-sub">Structured Streaming · DataFrames · Optimisation</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="85"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">85%</span>
+        </div>
+        <div class="sk-tags"><span>PySpark</span><span>Streaming</span><span>Pandas</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="7">
+        <div class="sk-icon" style="--ic:#00D4FF"><i class="fas fa-cloud-arrow-up"></i></div>
+        <div class="sk-info">
+          <h3>Azure Data Factory</h3>
+          <p class="sk-sub">Pipelines · Triggers · IR · Linked Services</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="90"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">90%</span>
+        </div>
+        <div class="sk-tags"><span>ADF</span><span>Mapping DF</span><span>CI/CD</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="8">
+        <div class="sk-icon" style="--ic:#a29bfe"><i class="fas fa-arrows-spin"></i></div>
+        <div class="sk-info">
+          <h3>ETL / ELT</h3>
+          <p class="sk-sub">Data Modelling · CDC · Medallion Architecture</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="93"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">93%</span>
+        </div>
+        <div class="sk-tags"><span>dbt</span><span>CDC</span><span>Medallion</span></div>
+      </div>
+
+      <div class="sk-card reveal" data-delay="9">
+        <div class="sk-icon" style="--ic:#74b9ff"><i class="fab fa-docker"></i></div>
+        <div class="sk-info">
+          <h3>Docker / Airflow</h3>
+          <p class="sk-sub">Containerisation · DAG Orchestration · Helm</p>
+        </div>
+        <div class="sk-bar-wrap">
+          <div class="sk-bar" data-pct="80"><div class="sk-fill"></div></div>
+          <span class="sk-pct mono">80%</span>
+        </div>
+        <div class="sk-tags"><span>Docker</span><span>Airflow</span><span>K8s</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ PROJECTS ══════════════════ -->
+<section id="projects" aria-labelledby="projects-h">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="sec-tag mono">// 03 — projects</span>
+      <h2 id="projects-h">Featured Work</h2>
+    </header>
+
+    <div class="proj-grid">
+
+      <article class="proj-card reveal" tabindex="0">
+        <div class="proj-thumb">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640&h=360&fit=crop" alt="BI Data Warehouse dashboard" loading="lazy" width="640" height="360" />
+          <span class="proj-badge">Enterprise BI</span>
+        </div>
+        <div class="proj-body">
+          <h3>McCain Foods BI Data Warehouse</h3>
+          <p>End-to-end warehouse on SQL Server + Power BI delivering supply-chain, sales and operations KPIs to senior leadership across North America and India.</p>
+          <div class="proj-stack">
+            <span>SSMS</span><span>SQL Server</span><span>SSIS</span><span>Power BI</span><span>DAX</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn outline"><i class="fas fa-play-circle"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card reveal" tabindex="0">
+        <div class="proj-thumb">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=640&h=360&fit=crop" alt="ETL pipeline" loading="lazy" width="640" height="360" />
+          <span class="proj-badge">Cloud ETL</span>
+        </div>
+        <div class="proj-body">
+          <h3>Claranet ETL Pipeline Suite</h3>
+          <p>12 ADF + SSIS pipelines migrating UK enterprise data from on-prem Oracle to ADLS Gen2/Synapse with zero-downtime cutover strategy.</p>
+          <div class="proj-stack">
+            <span>ADF</span><span>SSIS</span><span>ADLS Gen2</span><span>Synapse</span><span>Python</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn outline"><i class="fas fa-play-circle"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card reveal" tabindex="0">
+        <div class="proj-thumb">
+          <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=640&h=360&fit=crop" alt="AI RPA automation" loading="lazy" width="640" height="360" />
+          <span class="proj-badge">AI / RPA</span>
+        </div>
+        <div class="proj-body">
+          <h3>Capgemini RPA Data Automation</h3>
+          <p>UiPath RPA + ML classification cutting insurance claim processing from 3 days to 4 hours with real-time executive reporting.</p>
+          <div class="proj-stack">
+            <span>UiPath</span><span>Python</span><span>Scikit-learn</span><span>Power BI</span><span>SQL</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn outline"><i class="fas fa-play-circle"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card reveal" tabindex="0">
+        <div class="proj-thumb">
+          <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=640&h=360&fit=crop" alt="SIP investment analytics" loading="lazy" width="640" height="360" />
+          <span class="proj-badge">Finance Analytics</span>
+        </div>
+        <div class="proj-body">
+          <h3>SIP Investment Analytics Dashboard</h3>
+          <p>Streamlit dashboard applying Modern Portfolio Theory and Monte Carlo simulation to optimise SIP allocations across Indian mutual funds with live NAV feeds.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>Streamlit</span><span>Pandas</span><span>Plotly</span><span>YFinance</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn outline"><i class="fas fa-play-circle"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card reveal" tabindex="0">
+        <div class="proj-thumb">
+          <img src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?w=640&h=360&fit=crop" alt="Real-time Synapse analytics" loading="lazy" width="640" height="360" />
+          <span class="proj-badge">Real-time</span>
+        </div>
+        <div class="proj-body">
+          <h3>Real-time Analytics with Azure Synapse</h3>
+          <p>Event-driven streaming — Azure Event Hubs → Synapse → Power BI streaming datasets delivering sub-minute latency for IoT sensor telemetry at plant level.</p>
+          <div class="proj-stack">
+            <span>Synapse</span><span>Event Hubs</span><span>PySpark</span><span>Power BI</span><span>Databricks</span>
+          </div>
+          <div class="proj-links">
+            <a href="#" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn outline"><i class="fas fa-play-circle"></i> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ BLOG ══════════════════ -->
+<section id="blog" aria-labelledby="blog-h">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="sec-tag mono">// 04 — blog</span>
+      <h2 id="blog-h">Latest Articles</h2>
+    </header>
+
+    <div class="blog-grid">
+
+      <article class="blog-card reveal" tabindex="0">
+        <div class="blog-thumb">
+          <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=560&h=300&fit=crop" alt="Databricks pipelines" loading="lazy" width="560" height="300" />
+          <span class="blog-cat">Data Engineering</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta mono">
+            <span><i class="far fa-calendar"></i> Feb 2026</span>
+            <span><i class="far fa-clock"></i> 9 min</span>
+          </div>
+          <h3>Scaling Data Pipelines with Databricks</h3>
+          <p>From notebook chaos to production Delta pipelines — architecture patterns, cluster sizing, and optimisations that cut our job runtime by 40%.</p>
+          <a href="#" class="blog-more" aria-label="Read article on Databricks pipelines">
+            Read Article <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" tabindex="0">
+        <div class="blog-thumb">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=560&h=300&fit=crop" alt="Power BI DAX" loading="lazy" width="560" height="300" />
+          <span class="blog-cat">Power BI</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta mono">
+            <span><i class="far fa-calendar"></i> Jan 2026</span>
+            <span><i class="far fa-clock"></i> 7 min</span>
+          </div>
+          <h3>Power BI DAX for Financial KPIs</h3>
+          <p>Advanced DAX patterns — time intelligence, running totals, year-over-year variance — that every finance dashboard needs and most tutorials skip.</p>
+          <a href="#" class="blog-more" aria-label="Read article on Power BI DAX">
+            Read Article <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="blog-card reveal" tabindex="0">
+        <div class="blog-thumb">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=560&h=300&fit=crop" alt="Azure ETL best practices" loading="lazy" width="560" height="300" />
+          <span class="blog-cat">Azure</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-meta mono">
+            <span><i class="far fa-calendar"></i> Dec 2025</span>
+            <span><i class="far fa-clock"></i> 11 min</span>
+          </div>
+          <h3>ETL Best Practices in Azure</h3>
+          <p>Medallion architecture, idempotent loads, error-handling strategies and cost guardrails — the playbook behind reliable ADF + Synapse pipelines in production.</p>
+          <a href="#" class="blog-more" aria-label="Read article on Azure ETL">
+            Read Article <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ CONTACT ══════════════════ -->
+<section id="contact" aria-labelledby="contact-h">
+  <div class="container">
+    <header class="sec-head reveal">
+      <span class="sec-tag mono">// 05 — contact</span>
+      <h2 id="contact-h">Get In Touch</h2>
+    </header>
+
+    <div class="contact-layout">
+
+      <div class="contact-info reveal">
+        <p class="contact-lead">Have a data engineering challenge, consulting opportunity, or just want to connect? Drop me a message.</p>
+        <div class="cinfo-list">
+          <div class="cinfo-row">
+            <div class="cinfo-ico"><i class="fas fa-location-dot"></i></div>
+            <div><strong>Location</strong><span>Delhi, India</span></div>
+          </div>
+          <div class="cinfo-row">
+            <div class="cinfo-ico"><i class="fas fa-briefcase"></i></div>
+            <div><strong>Current Role</strong><span>Senior Data Engineer @ McCain Foods</span></div>
+          </div>
+          <div class="cinfo-row">
+            <div class="cinfo-ico"><i class="fas fa-envelope"></i></div>
+            <div><strong>Email</strong><a href="mailto:sameer@example.com">sameer@example.com</a></div>
+          </div>
+          <div class="cinfo-row">
+            <div class="cinfo-ico"><i class="fab fa-whatsapp"></i></div>
+            <div><strong>WhatsApp</strong><a href="https://wa.me/919999999999" target="_blank" rel="noopener">+91 99999 99999</a></div>
+          </div>
+        </div>
+        <div class="social-row" role="list" aria-label="Social links">
+          <a href="https://linkedin.com/in/sameermanubansh" class="soc-btn" target="_blank" rel="noopener" role="listitem" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/sameermanubansh"     class="soc-btn" target="_blank" rel="noopener" role="listitem" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://kaggle.com/sameermanubansh"     class="soc-btn" target="_blank" rel="noopener" role="listitem" aria-label="Kaggle"><i class="fab fa-kaggle"></i></a>
+          <a href="mailto:sameer@example.com"              class="soc-btn" role="listitem" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal">
+        <form id="contactForm" novalidate aria-label="Contact form">
+          <div class="fg">
+            <label for="cf_name">Full Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="cf_name" name="user_name" placeholder="Your name" required autocomplete="name" />
+          </div>
+          <div class="fg">
+            <label for="cf_email">Email Address <span aria-hidden="true">*</span></label>
+            <input type="email" id="cf_email" name="user_email" placeholder="your@email.com" required autocomplete="email" />
+          </div>
+          <div class="fg">
+            <label for="cf_subject">Subject</label>
+            <input type="text" id="cf_subject" name="subject" placeholder="Project / opportunity / question" />
+          </div>
+          <div class="fg">
+            <label for="cf_message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="cf_message" name="message" rows="5" placeholder="Tell me about your data engineering challenge…" required></textarea>
+          </div>
+          <div class="fg">
+            <label>Attach File <span class="optional mono">(optional)</span></label>
+            <div class="file-drop" id="fileDrop">
+              <i class="fas fa-cloud-arrow-up"></i>
+              <span>Drag &amp; drop or <label for="cf_file" class="file-label">browse</label></span>
+              <input type="file" id="cf_file" name="attachment" accept=".pdf,.doc,.docx,.txt" />
+              <span id="fileName" class="file-name mono"></span>
+            </div>
+          </div>
+          <button type="submit" class="btn-submit" id="submitBtn">
+            <span id="btnLabel"><i class="fas fa-paper-plane"></i> Send Message</span>
+            <span id="btnSpinner" class="hidden"><i class="fas fa-spinner fa-spin"></i> Sending…</span>
+          </button>
+          <p id="formStatus" class="form-status" role="alert" aria-live="polite"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer id="footer">
+  <div class="container footer-inner">
+    <p class="foot-copy mono">
+      © 2026 <span class="hl-blue">Sameer Manubansh</span> · Delhi, India · Built with <span class="hl-green">♥</span> &amp; vanilla JS
+    </p>
+    <div class="foot-links">
+      <a href="https://linkedin.com/in/sameermanubansh" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/sameermanubansh"     target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#hero" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+  </div>
+</footer>
+
+<button id="btt" class="btt" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
